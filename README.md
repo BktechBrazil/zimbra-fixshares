@@ -1,4 +1,4 @@
-# zimbra-fixshares
+# Zimbra-Fixshares - _Versão 1.0 - Mantido por BKTECH <http://www.bktech.com.br>
 
 DISTRIBUÍDO SOB A LICENÇA CREATIVE COMMONS: Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)
 
