@@ -1,4 +1,4 @@
-# Zimbra-Fixshares - _Versão 1.0 - Mantido por BKTECH <http://www.bktech.com.br>
+# Zimbra-Fixshares - _Versão 1.0.0 - Mantido por BKTECH <http://www.bktech.com.br>
 
 # DISTRIBUÍDO SOB A LICENÇA CREATIVE COMMONS: Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)
 
@@ -19,3 +19,17 @@ APLICAÇÃO EM PARTICULAR.
 # Rotina para correção dos compartilhamentos após migração entre ambiente Zimbra. 
 
 # Agradecimentos ao @juliosaraiva pela colaboração neste projeto.
+
+[README - v1.0.0]
+												
+# CHANGELOG: 
+
+ (FAVOR LER O ARQUIVO CHANGELOG)
+
+# INSTALAÇÃO
+ 
+ (FAVOR LER O ARQUIVO INSTALL)
+ 
+# UTILIZAÇÃO
+ 
+ (FAVOR LER O ARQUIVO INSTALL)
