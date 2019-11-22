@@ -1,0 +1,8 @@
+# Centos 7
+
+No servidor de origem da migração:
+
+sudo yum install python-pip openldap-devel gcc python-devel
+sudo pip install --upgrade pip
+sudo pip install timeout-decorator==0.4.0
+sudo pip install python-ldap==2.5.2
