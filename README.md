@@ -7,15 +7,11 @@ ao CRIADOR o devido crédito (banner original e Copyright), e que licenciem as n
 distribuído na esperança de que possa ser útil, mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer MERCADO ou 
 APLICAÇÃO EM PARTICULAR.
  
-#################################################################################################################################
- 
 ## Contato:
  
  Site: <http://www.bktech.com.br>
  E-mail: <treina@bktech.com.br>
  
-#################################################################################################################################
-
 # Rotina para correção dos compartilhamentos após migração entre ambiente Zimbra. 
 
 ### Agradecimentos ao @juliosaraiva pela colaboração neste projeto.
