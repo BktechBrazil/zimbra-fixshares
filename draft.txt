@@ -1,0 +1,25 @@
+ 579  yum install python-pip
+  580  pip install timeout-decorator==0.4.0
+  581  yum install ldap-dev
+  582  yum install openldap-devel
+  583  pip install python-ldap==2.5.2
+  584  yum install python-devel openldap-devel
+  585  pip install python-ldap==2.5.2
+  586  yum install gcc
+  587  pip install python-ldap==2.5.2
+  
+  ---
+  
+  
+   yum install python-pip openldap-devel gcc python-devel
+   pip install --upgrade pip
+   pip install timeout-decorator==0.4.0
+   pip install python-ldap==2.5.2
+
+  
+  executar como zimbra
+  
+  source ~/bin/zmshutil
+  zmsetvars
+  zmprov -l gaa > contas.txt
+  ./getShare.py contas.txt
