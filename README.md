@@ -14,7 +14,7 @@ APLICAÇÃO EM PARTICULAR.
  Site: <http://www.bktech.com.br>
  E-mail: <treina@bktech.com.br>
  
-# Rotina para correção dos compartilhamentos após migração entre ambiente Zimbra. 
+# Rotina para correção dos compartilhamentos após migração de ambiente Zimbra. 
 
 [README - v1.0.0]
 												
