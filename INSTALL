@@ -1,8 +1,15 @@
 # Centos 7
 
-No servidor de origem da migração:
+- No servidor de origem da migração, como root:
 
 yum install python-pip openldap-devel gcc python-devel
 pip install --trusted-host pypi.org --trusted-host  pypi.python.org --upgrade pip
 pip install --trusted-host pypi.org --trusted-host  pypi.python.org timeout-decorator==0.4.0
 pip install --trusted-host pypi.org --trusted-host  pypi.python.org python-ldap==2.5.2
+
+- Executar como zimbra:
+  
+source ~/bin/zmshutil
+zmsetvars
+zmprov -l gaa > contas.txt
+./getShare.py contas.txt
