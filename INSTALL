@@ -13,3 +13,5 @@ source ~/bin/zmshutil
 zmsetvars
 zmprov -l gaa > contas.txt
 ./getShare.py contas.txt
+
+- Será gerado o arquivo "sharing.sh", que deve ser executado no servidor de DESTINO da migração, desta forma todos os compartilhamentos serão corrigidos.
