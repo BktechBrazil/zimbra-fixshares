@@ -7,11 +7,12 @@ pip install --trusted-host pypi.org --trusted-host  pypi.python.org --upgrade pi
 pip install --trusted-host pypi.org --trusted-host  pypi.python.org timeout-decorator==0.4.0
 pip install --trusted-host pypi.org --trusted-host  pypi.python.org python-ldap==2.5.2
 
-- Executar como zimbra:
+- Executar como zimbra (em um diretório onde o zimbra possa ler e escrever):
   
 source ~/bin/zmshutil
 zmsetvars
 zmprov -l gaa > contas.txt
+chmod u+x getShare.py
 ./getShare.py contas.txt
 
 - Será gerado o arquivo "sharing.sh", que deve ser executado no servidor de DESTINO da migração, desta forma todos os compartilhamentos serão corrigidos.
