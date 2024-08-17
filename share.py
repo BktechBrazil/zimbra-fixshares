@@ -4,7 +4,7 @@ import sys
 from ZmSharing import ZmSharing
 
 
-url = os.getenv('ldap_host')
+url = os.getenv('ldap_url')
 userdn = os.getenv('zimbra_ldap_userdn')
 password = os.getenv('zimbra_ldap_password')
 filename = sys.argv[1]
