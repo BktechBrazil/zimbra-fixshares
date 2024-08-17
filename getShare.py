@@ -8,7 +8,7 @@ from ZmSharing import ZmSharing
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url = os.getenv('ldap_host')
+url = os.getenv('ldap_url')
 userdn = os.getenv('zimbra_ldap_userdn')
 password = os.getenv('zimbra_ldap_password')
 searchAccount = ZmSharing(url, userdn, password)
