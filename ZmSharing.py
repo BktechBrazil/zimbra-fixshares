@@ -9,8 +9,8 @@ import timeout_decorator
 
 
 class ZmSharing():
-    def __init__(self, ldap_host, zimbra_ldap_userdn, zimbra_ldap_password, ou=""):
-        self.url = ldap_host
+    def __init__(self, ldap_url, zimbra_ldap_userdn, zimbra_ldap_password, ou=""):
+        self.url = ldap_url
         self.binddn = zimbra_ldap_userdn
         self.passwd = zimbra_ldap_password
         self.basedn = ou
